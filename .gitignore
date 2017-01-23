@@ -1,0 +1,29 @@
+.DS_Store
+.sass-cache/
+node_modules/
+admin/assets/css/
+public/assets/css/
+admin/assets/js/*.min.js
+public/assets/js/*.min.js
+# System files & Artifacts
+.DS_Store
+.phplint.cache
+build.properties
+build
+selenium-server.jar
+node_modules
+npm-debug.log
+
+# IDE
+.idea
+nbproject
+
+# Vagrant
+.vagrant
+varrgrant.json
+
+# Composer
+vendor
+
+# Project files
+tests/wp-tests-config.php

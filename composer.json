@@ -1,0 +1,41 @@
+{
+  "name": "lonelyplanet/pl-weather",
+  "homepage": "https://github.com/tranthienbinh1989/pl-weather",
+  "description": "A weather plugin with OpenWeatherMap API",
+  "license": "GPL-2.0+",
+
+  "type": "wordpress-plugin",
+
+  "keywords": [
+    "WordPress", "plugins", "themes", "php", "weather"
+  ],
+
+  "authors": [
+    {
+      "name": "Binh Tran",
+      "email": "tranthienbinh1989@gmail.com"
+    }
+  ],
+
+  "require": {
+    "php": ">=5.5"
+  },
+
+  "require-dev": {
+    "phing/phing": "dev-master",
+    "phpunit/phpunit": "3.7.*",
+    "phpunit/dbunit": "1.2.*@dev",
+    "phpunit/phpunit-selenium" : "*",
+    "whatthejeff/nyancat-phpunit-resultprinter": "~1.1",
+    "whatthejeff/fab-phpunit-resultprinter": "~1.1",
+    "behat/behat": "2.4.*",
+    "behat/mink": "1.4.*",
+    "behat/mink-extension": "*",
+    "behat/mink-goutte-driver": "*",
+    "behat/mink-selenium2-driver": "*",
+    "behat/mink-zombie-driver": "*",
+    "facebook/webdriver": "*",
+    "respect/validation" : "dev-master",
+    "satooshi/php-coveralls": "dev-master"
+  }
+}
